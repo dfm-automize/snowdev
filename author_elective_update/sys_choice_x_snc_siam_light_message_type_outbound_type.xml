@@ -1,6 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="outbound_type" table="x_snc_siam_light_message_type" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>outbound_type</element>
+            <name>x_snc_siam_light_message_type</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-01-18 11:49:23</sys_created_on>
+            <sys_id>bd5128a1c35b961048b79f9a05013111</sys_id>
+            <sys_mod_count>27</sys_mod_count>
+            <sys_name>outbound_type</sys_name>
+            <sys_package display_value="SIAM Light" source="x_snc_siam_light">add64881295f42002e68eb689ad1b2ab</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SIAM Light">add64881295f42002e68eb689ad1b2ab</sys_scope>
+            <sys_update_name>sys_choice_x_snc_siam_light_message_type_outbound_type</sys_update_name>
+            <sys_updated_by>daniel.draes</sys_updated_by>
+            <sys_updated_on>2017-08-22 09:37:20</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>outbound_type</element>
@@ -10,6 +25,7 @@
             <language>en</language>
             <name>x_snc_siam_light_message_type</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-01-18 11:49:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -29,6 +45,7 @@
             <language>en</language>
             <name>x_snc_siam_light_message_type</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-01-18 11:49:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -48,6 +65,7 @@
             <language>en</language>
             <name>x_snc_siam_light_message_type</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-01-18 11:49:23</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -58,23 +76,5 @@
             <sys_updated_on>2016-01-18 11:52:24</sys_updated_on>
             <value>generic</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>outbound_type</element>
-            <name>x_snc_siam_light_message_type</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-01-18 11:49:23</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>888b3b104fa00700908b81c18110c7eb</sys_id>
-            <sys_mod_count>27</sys_mod_count>
-            <sys_name>outbound_type</sys_name>
-            <sys_package display_value="SIAM Light" source="x_snc_siam_light">add64881295f42002e68eb689ad1b2ab</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="SIAM Light">add64881295f42002e68eb689ad1b2ab</sys_scope>
-            <sys_update_name>sys_choice_x_snc_siam_light_message_type_outbound_type</sys_update_name>
-            <sys_updated_by>daniel.draes</sys_updated_by>
-            <sys_updated_on>2017-08-22 09:37:20</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

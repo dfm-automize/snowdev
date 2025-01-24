@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="External ID" max_length="40" name="x_snc_siam_light_external_id" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="025128a1c35b961048b79f9a05013185" label="External ID" max_length="40" name="x_snc_siam_light_external_id" type="collection">
+        <element label="Target" max_length="32" name="target" reference="x_snc_siam_light_target" type="reference"/>
         <element label="External ID" max_length="40" name="external_id" type="string"/>
         <element dependent="table" dependent_on_field="table" label="Internal ID" max_length="32" name="internal_id" type="document_id" use_dependent_field="true"/>
         <element label="Table" max_length="80" name="table" type="table_name"/>
-        <element label="Target" max_length="32" name="target" reference="x_snc_siam_light_target" type="reference"/>
         <index name="index">
             <element name="internal_id"/>
         </index>
